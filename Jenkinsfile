@@ -27,7 +27,7 @@ pipeline {
 	    apksToSign: "**/*-unsigned.apk" 
 	    ) 
 	    }   
-	
+	 }
     }
 }
     
