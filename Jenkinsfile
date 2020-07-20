@@ -19,7 +19,14 @@ pipeline {
             archiveArtifacts artifacts: '**/*.apk', fingerprint: true, onlyIfSuccessful: true            
 	    }
 	}
-	    
+	 stage ('sign apk') { 
+	    steps{
+	    signAndroidApks ( 
+	    keyStoreId: "AndroidSign", 
+	    keyAlias: "my-alias", 
+	    apksToSign: "**/*-unsigned.apk" 
+	    ) 
+	    }   
 	
     }
 }
