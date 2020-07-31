@@ -20,14 +20,4 @@ Al haber instalado un nuevo Jenkins necesitamos además de los plugins mencionad
                 Hudson Personal View
                 Hudson WebSVN2 plugin
 
-Además de los plugins necesitamos en la máquina lo siguiente:
-gradle (versión mínima 4.5) 
-Jdk8 
-Android SDK 4.0.0
 
-Necesitamos conocer los directorios en los que queden instalados para poder configurarlos en Jenkins
-Muchas gracias. 
-Un saludo, 
-Silvia. 
-
-fjavmartinez@tecnologia.cajamar.es
